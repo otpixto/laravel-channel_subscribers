@@ -9,7 +9,6 @@
             "email": "otpixto@yandex.ru"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.6.0",
         "illuminate/support": "5.0.*"
@@ -18,5 +17,6 @@
         "psr-4": {
             "Otpixto\\ChannelsSubscribers\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
