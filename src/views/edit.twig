@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+</head>
+<body>
+
+<h1>Подписки пользователя {{ userName }}</h1>
+
+<form action="/subscribers/update/{{ userId }}" method="post">
+<div id="channels">
+    {% for channel in channels %}
+        <div class="channel">
+            <label for="">{{ channel.channel }}</label>
+            <input type="checkbox" name="channel[{{ channel.id }}]" {% if(channel.checked) %} checked="checked" {% endif %} />
+        </div>
+    {% endfor %}
+</div>
+    <input type="submit" value="Сохранить" />
+</form>
+</body>
+</html>
