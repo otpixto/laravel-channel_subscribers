@@ -1,7 +1,7 @@
 {
     "name": "otpixto/laravel-channels_subscribers",
     "description": "Пакет для отметки пользователей, подписавшихся на каналы",
-    "keywords": ["github", "laravel","Open Source","Evangelist"],
+    "keywords": ["github", "laravel","Open Source"],
     "license": "MIT",
     "authors": [
         {
