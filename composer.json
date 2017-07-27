@@ -18,5 +18,5 @@
             "Otpixto\\ChannelsSubscribers\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
