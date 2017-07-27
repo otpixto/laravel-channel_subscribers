@@ -14,7 +14,6 @@ class ChannelsSubscribersServiceProvider extends ServiceProvider
     public function boot()
     {
         include __DIR__.'/routes.php';
-        $this->publishes([__DIR__.'/config/channels_subscribers.php' => config_path('channels_subscribers.php')]);
     }
 
     /**
