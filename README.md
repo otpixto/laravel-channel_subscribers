@@ -5,7 +5,7 @@
 Установка 
 
 
-composer require otpixto/laravel-channels_subscribers @dev
+  composer require otpixto/laravel-channels_subscribers @dev
 
 
 
@@ -16,4 +16,4 @@ composer require otpixto/laravel-channels_subscribers @dev
 
 Затем нужно произвести миграции таблиц БД
 
-php artisan migrate --path=vendor/otpixto/laravel-channels_subscribers/src/migrations
+  php artisan migrate --path=vendor/otpixto/laravel-channels_subscribers/src/migrations
