@@ -1,5 +1,4 @@
 <?php
-
 Route::get('/subscribers', 'Otpixto\ChannelsSubscribers\ChannelsSubscribersController@index');
 Route::get('/subscribers/edit/{user_id}', 'Otpixto\ChannelsSubscribers\ChannelsSubscribersController@edit');
 Route::post('/subscribers/update/{user_id}', 'Otpixto\ChannelsSubscribers\ChannelsSubscribersController@update');
