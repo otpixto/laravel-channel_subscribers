@@ -7,7 +7,6 @@
             "email": "otpixto@yandex.ru"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "php": ">=5.6.0",
         "illuminate/support": "5.0.*"
